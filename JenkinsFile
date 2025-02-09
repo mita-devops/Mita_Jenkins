@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: "${GITHUB_REPO}"
+                git branch: 'main', url: "${https://github.com/mita-devops/Mita_Jenkins.git}"
             }
         }
 
