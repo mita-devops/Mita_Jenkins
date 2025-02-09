@@ -26,7 +26,7 @@ pipeline {
 
         stage('Login to Docker Hub') {
             steps {
-                sh "echo ${ea2515745b134e32be926155193188ec} | docker login -u ${Mita_docker} --password-stdin"
+                sh "echo ${Mita4229@} | docker login -u ${Mita_docker} --password-stdin"
             }
         }
 
