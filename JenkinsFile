@@ -7,8 +7,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('docker-hub-credentials') // Store your Docker credentials in Jenkins
-        DOCKER_IMAGE = "Mita-Jenkins/demo-app:${BUILD_VERSION}"
-        GITHUB_REPO = "https://github.com/Mita_Jenkins/demo-app.git"
+        DOCKER_IMAGE = "Mita-docker/demo-app:${BUILD_VERSION}"
+        GITHUB_REPO = "https://github.com/mita-devops/Mita_Jenkins.git"
     }
 
     stages {
